@@ -11,7 +11,7 @@ email: jesper@graffen.dk
 description: > # this means to ignore newlines until "baseurl:"
   xmpp.dk is a secure, free and public XMPP/Jabber server that allows registration.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xmpp.dk" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 sass:
   sass_dir: _sass
 include: ['_pages']
