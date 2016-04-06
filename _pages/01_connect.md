@@ -3,7 +3,7 @@ layout: page
 title: Connect
 permalink: /connect/
 ---
-You can connect to xmpp.dk using your favourite Jabber client.
+You can connect to xmpp.dk using your favourite Jabber client. There's a long list of clients available over at [xmpp.org][jabber-clients]. 
 
 ## To create a @xmpp.dk account
 Registration is handled in-band by your Jabber/XMPP client. This is the only way to create an account on xmpp.dk.  
@@ -31,5 +31,6 @@ xmpp.dk allows federated connections to all other S2S TLS-enabled Jabber servers
 ## xmpp.net score
 [![xmpp.net_score](https://xmpp.net/badge.php?domain=xmpp.dk)][xmpp.net]
 
+[jabber-clients]: https://xmpp.org/software/clients.html
 [off-the-record]: https://otr.cypherpunks.ca/
 [xmpp.net]: https://xmpp.net/result.php?domain=xmpp.dk&type=client
