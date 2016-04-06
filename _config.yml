@@ -1,17 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: XMPP.DK
+title: XMPP.DK jabber server
 email: jesper@graffen.dk
 description: > # this means to ignore newlines until "baseurl:"
   xmpp.dk is a secure, free and public XMPP/Jabber server that allows registration.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://xmpp.dk" # the base hostname & protocol for your site
 sass:
   sass_dir: _sass
 include: ['_pages']
