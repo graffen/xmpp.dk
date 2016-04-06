@@ -19,6 +19,41 @@
     }
 }
 
+aside {
+    width: 100%;
+    z-index: 2;
+    
+    nav {
+        max-width: 800px;
+        margin: 0 auto;
+        ul {
+            padding: 0;
+            list-style: none;
+            li {
+                float: left;
+                position: relative;
+                a {
+                    text-decoration: none;
+                    display: block;
+                    padding: 15px;
+                    line-height: 20px;
+                    box-shadow: 0;
+                    &:hover,
+                    &:active {
+                        background: $background-color;
+                        text-decoration: none;
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+        &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+}
 
 
 /**

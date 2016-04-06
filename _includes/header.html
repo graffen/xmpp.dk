@@ -1,12 +1,18 @@
-<aside>
-  <div class="container">
-    
-  </div>
-</aside>
-
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
   </div>
   <div class="wrapper"><small>This site is also available as a Tor hidden service here: <a href="http://mjfjbs3547exsy6r.onion">http://mjfjbs3547exsy6r.onion</a> </small></div>
+  <aside>
+  <nav>
+    <ul>
+      {% for page in site.pages %} {% if page.title %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %} {% endfor %}
+      <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+    </ul>
+  </li>
+</ul>
+</nav>
+</aside>
 </header>
