@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Connecting
-permalink: /connecting/
+title: Connect
+permalink: /connect/
 ---
 You can connect to xmpp.dk using your favourite Jabber client.
 
