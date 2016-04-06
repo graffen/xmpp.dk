@@ -17,4 +17,3 @@ sass:
 include: ['_pages']
 # Build settings
 markdown: kramdown
-  input: GFM
