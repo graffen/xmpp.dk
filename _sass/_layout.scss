@@ -26,23 +26,24 @@ aside {
     nav {
         max-width: 800px;
         margin: 0 auto;
+        text-align: center;
         ul {
             padding: 0;
             list-style: none;
             li {
-                float: left;
+                display: inline-block;
                 position: relative;
                 a {
                     text-decoration: none;
+                    font-weight: bold;
                     display: block;
-                    padding: 15px;
-                    line-height: 20px;
-                    box-shadow: 0;
+                    padding: 20px 60px 0 0;
                     &:hover,
                     &:active {
                         background: $background-color;
                         text-decoration: none;
                         color: $text-color;
+                        font-weight: bolder;
                     }
                 }
             }
