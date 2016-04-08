@@ -8,7 +8,7 @@ You can connect to xmpp.dk using your favourite Jabber client. There's a long li
 ## To create a @xmpp.dk account
 Registration is handled in-band by your Jabber/XMPP client. This is the only way to create an account on xmpp.dk.  
   
-Simply add username@xmpp.dk in your client and click “register” or check the box to “create this account on the server” to sign up.
+Simply add _username_@xmpp.dk in your client and click “register” or check the box to “create this account on the server” to sign up.
 
 ## Connection Information
 
@@ -23,7 +23,9 @@ Simply add username@xmpp.dk in your client and click “register” or check the
 * When connecting to the hidden service you will get a warning about the TLS certificate not matching the host name. This is OK.
 
 ## Secure Communication
-The connection between your client and xmpp.net is encrypted using TLS. The server prefers secure connections to other servers, however this cannot be guaranteed. For completely secure end-to-end encrypted chats, you should enable [Off-The-Record (OTR)][off-the-record] in your chat client. 
+The connection between your client and xmpp.net is encrypted using TLS. The server prefers secure connections to other servers, however this cannot be guaranteed. 
+Since you can't (and shouldn't) trust your xmpp server, I recommend you always enable [Off-The-Record (OTR)][off-the-record] in your chat client. This will give you end-to-end encrypted chat that cannot be decrypted while in transit
+and, depending on the settings of your client, will not be logged on your local machine. 
 
 ## Federation
 xmpp.dk allows federated connections to all other S2S TLS-enabled Jabber servers so you can chat with anyone that has a Jabber account. Note that Google Talk (has this been deprecated yet?) doesn’t support S2S connections.
