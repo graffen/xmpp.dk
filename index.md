@@ -2,7 +2,7 @@
 layout: default
 ---
 # Welcome to XMPP.DK
-XMPP.dk runs a public, free and secure Jabber/XMPP server that allows account registration.
+XMPP.dk runs a public, free and secure Jabber/XMPP server that allows account registration. In addition, the server requires OTR to be enabled in your chat client.
 
 * Read [more] about XMPP at [xmpp.org][more]
 * There's also a nice [list of clients][clientlist]

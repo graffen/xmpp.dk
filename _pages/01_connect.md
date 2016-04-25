@@ -24,7 +24,7 @@ Simply add _username_@xmpp.dk in your client and click “register” or check t
 
 ## Secure Communication
 The connection between your client and xmpp.net is encrypted using TLS. The server prefers secure connections to other servers, however this cannot be guaranteed. 
-Since you can't (and shouldn't) trust your xmpp server, I recommend you always enable [Off-The-Record (OTR)][off-the-record] in your chat client. This will give you end-to-end encrypted chat that cannot be decrypted while in transit
+Since you can't (and shouldn't) trust your xmpp server, I require you always enable [Off-The-Record (OTR)][off-the-record] in your chat client. This will give you end-to-end encrypted chat that cannot be decrypted while in transit
 and, depending on the settings of your client, will not be logged on your local machine. 
 
 ## Federation
