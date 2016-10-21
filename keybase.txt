@@ -1,0 +1,52 @@
+https://keybase.io/graffen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://xmpp.dk
+  * I am graffen (https://keybase.io/graffen) on keybase.
+  * I have a public key ASBvJm8RlwRd3aioYh3HFmVivADwjgOy3Fd05SH2B6kUDQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e9446958e563a7dccab8d749faf227c159aa1b502e307b88ed3eb71346a9e6670a",
+            "host": "keybase.io",
+            "kid": "01206f266f1197045ddda8a8621dc7166562bc00f08e03b2dc5774e521f607a9140d0a",
+            "uid": "9480ebbe81bab49060a5f4d71b308300",
+            "username": "graffen"
+        },
+        "service": {
+            "hostname": "xmpp.dk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1477038854,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1477038792,
+        "hash": "1881c2cee6c1daabcb03d351e2cfaa5ef73fee21744a0eaa5d7724f9d0149b0b8c090fd74a79eeebd2ef49472eeec42518b857d79d80dfaaf2f70e9244d4bbfd",
+        "seqno": 683988
+    },
+    "prev": "f9fb711ebf844d272cd670389727a3338186a8b09cbc1d86a369607327e1eaf2",
+    "seqno": 87,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbyZvEZcEXd2oqGIdxxZlYrwA8I4DstxXdOUh9gepFA0Kp3BheWxvYWTFAu97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZTk0NDY5NThlNTYzYTdkY2NhYjhkNzQ5ZmFmMjI3YzE1OWFhMWI1MDJlMzA3Yjg4ZWQzZWI3MTM0NmE5ZTY2NzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmYyNjZmMTE5NzA0NWRkZGE4YTg2MjFkYzcxNjY1NjJiYzAwZjA4ZTAzYjJkYzU3NzRlNTIxZjYwN2E5MTQwZDBhIiwidWlkIjoiOTQ4MGViYmU4MWJhYjQ5MDYwYTVmNGQ3MWIzMDgzMDAiLCJ1c2VybmFtZSI6ImdyYWZmZW4ifSwic2VydmljZSI6eyJob3N0bmFtZSI6InhtcHAuZGsiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3NzAzODg1NCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc3MDM4NzkyLCJoYXNoIjoiMTg4MWMyY2VlNmMxZGFhYmNiMDNkMzUxZTJjZmFhNWVmNzNmZWUyMTc0NGEwZWFhNWQ3NzI0ZjlkMDE0OWIwYjhjMDkwZmQ3NGE3OWVlZWJkMmVmNDk0NzJlZWVjNDI1MThiODU3ZDc5ZDgwZGZhYWYyZjcwZTkyNDRkNGJiZmQiLCJzZXFubyI6NjgzOTg4fSwicHJldiI6ImY5ZmI3MTFlYmY4NDRkMjcyY2Q2NzAzODk3MjdhMzMzODE4NmE4YjA5Y2JjMWQ4NmEzNjk2MDczMjdlMWVhZjIiLCJzZXFubyI6ODcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAFC6zRd9AGVaHxyEO7UyX4lbwW18YsjgiNP5HeyHlyHb5EPptGjS2VAiK6m90J+l5xrfbNSZ2CvLxemHVUsyQAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKIVOQwVd3y1bfvQE8td2ccBxXULEtA1OF83+GLlKI/Uo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/graffen
+
