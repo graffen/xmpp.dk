@@ -5,11 +5,11 @@ permalink: /fingerprints/
 ---
 OTR: graffen.dk/Qubes: 6A99F136 E66972B9 B169D5B3 458828D1 4003240F
 
-TLS certificate is issued by [LetsEncrypt][LetsEncrypt] to _xmpp.dk_
+TLS certificate is issued by [LetsEncrypt][LetsEncrypt] to _triton.xmpp.dk_
  
-* SHA-256: 2B:8F:A7:DE:87:D9:40:AF:F3:8B:D8:A1:ED:6D:7D:E6:20:5D:CE:4C:7F:06:1C:CE:33:1F:9E:3C:40:60:F5:2D
-* SHA1: FF:D7:F1:86:50:45:1F:52:2B:D7:26:93:46:1F:9C:D6:59:02:C0:EE
+* SHA-256: `0E:4A:F6:FA:73:21:65:ED:43:4F:2D:26:84:72:DD:97:89:64:F1:46:D0:D3:61:BA:69:92:B9:A8:E5:C4:3E:E2`
+* SHA1: `3B:16:03:E9:3E:5C:EF:41:DD:7E:F5:5C:13:24:68:E6:17:35:02:A9`
 
-Expiry (dd/mm/yy): 02/11/2016
+Expiry (dd/mm/yy): 01/01/2017
 
 [LetsEncrypt]: https://www.letsencrypt.org
