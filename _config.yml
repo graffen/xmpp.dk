@@ -11,3 +11,4 @@ sass:
 include: ['_pages']
 # Build settings
 markdown: kramdown
+twitter_username: xmppdk
