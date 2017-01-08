@@ -97,7 +97,7 @@ a {
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 1.5rem 4rem;
   }
 
   @include small {
@@ -334,7 +334,7 @@ a {
 
 aside nav {
     text-align: center;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
 
     ul {
         padding: 0;
