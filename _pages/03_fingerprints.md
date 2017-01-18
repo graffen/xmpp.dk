@@ -3,9 +3,17 @@ layout: page
 title: Fingerprints
 permalink: /fingerprints/
 ---
-OTR: graffen.dk/Qubes: `6A99F136 E66972B9 B169D5B3 458828D1 4003240F`
 
-TLS certificate is issued by [LetsEncrypt][LetsEncrypt] to _triton.xmpp.dk_
+I'll try to keep the fingerprints on this page up-to-date to within about a day or two
+of them being updated on the server. If you're connecting through Tor you'll get a 
+security warning pop up around once every 3 months, when the LetsEncrypt certificate 
+expires and is renewed. If I haven't updated the fingerprint on this page, you can 
+check the fingerprint in your browser and compare that with what the XMPP server is
+reporting. They should be identical. 
+ 
+OTR Fingerprint: graffen.dk/Qubes: `{{ site.fingerprints.otr }}`
+
+TLS certificate for this site and the XMPP server is issued by [LetsEncrypt][LetsEncrypt] to _triton.xmpp.dk_
  
 SHA-256: 
 
