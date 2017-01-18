@@ -1,2 +1,2 @@
-gem 'github-pages'
+gem 'jekyll'
 source 'https://rubygems.org'
