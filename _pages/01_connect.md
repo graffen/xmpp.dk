@@ -26,7 +26,12 @@ Simply add _username_@xmpp.dk in your client and click “register” or check t
 The connection between your client and xmpp.net is encrypted using TLS. The server requires TLS connections to other XMPP servers.
 This means that if you can't connect to a friend, their provider is not configured to use TLS and the xmpp.dk server will refuse the connection. Your friend
 should either convince their provider to enable TLS server-to-server connections, or switch to a provider that has proper encrypted transport support. 
-Since you can't (and shouldn't) trust your xmpp server, I require you always enable [Off-The-Record (OTR)][off-the-record] in your chat client. 
+Since you can't (and shouldn't) trust your xmpp server, I require you always enable secure end-to-end encryption in your chat client. Supported modes are: 
+
+* [Off-The-Record (OTR)][off-the-record]
+* [OMEMO][omemo]
+* GPG
+
 This will give you end-to-end encrypted chat that cannot be decrypted while in transit and, depending on the settings of your client, will not be logged on your local machine. 
 
 ## Federation
@@ -34,3 +39,4 @@ xmpp.dk allows federated connections to all other *S2S TLS-enabled Jabber server
 
 [jabber-clients]: https://xmpp.org/software/clients.html
 [off-the-record]: https://otr.cypherpunks.ca/
+[omemo]:https://conversations.im/omemo/
