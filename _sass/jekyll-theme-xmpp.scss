@@ -1,6 +1,8 @@
+@import "variables";
 @import "normalize";
 @import "rouge-github";
-@import "variables";
+@import "banners";
+
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -404,4 +406,8 @@ aside nav {
 
 .site-footer-credits {
   color: $blockquote-text-color;
+}
+
+.shadow { 
+  box-shadow: 0 0 3px rgba(0,0,0,0.3); 
 }
