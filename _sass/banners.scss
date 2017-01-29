@@ -1,13 +1,36 @@
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+
 .ribbonbanner {
-    padding: 10px 55px;
+    @include large {
+        padding: 10px 55px;
+        transform: rotate(-45deg);
+        top: 28px;
+        left: -60px;
+        width: 250px;
+    }
+
+    @include small {
+        padding: 3px 0;
+        top: 0px;
+        width: 100%;
+    }
+
     text-align: center;
     position: absolute;
     color: $header-heading-color;
     background-color: $header-bg-color;
-    transform: rotate(-45deg);
-    top: 28px;
-    left: -60px;
-
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
     a {
         color: $header-heading-color;
         text-decoration: underline;
