@@ -9,7 +9,7 @@ If you need to get in touch with me for one reason or another, feel free to do s
  *[OTR][otr] is required by the server to ensure privacy.  
   My OTR fingerprint is: `6A99F136 E66972B9 B169D5B3 458828D1 4003240F`
 * Email: [jesper@graffen.dk][email] ([GnuPG key][gnupg])
-{% if site.twitter_username %}* Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">{% icon fa-twitter %} Or you can follow on Twitter for updates.</a>{% endif %}
+{% if site.twitter_username %}* Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">Follow</a> on Twitter for updates.{% endif %}
 
 [jabber]: xmpp://graffen@xmpp.dk 
 [email]: mailto:jesper@graffen.dk?subject=xmpp.dk
