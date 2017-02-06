@@ -3,7 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-If you need to get in touch with me for one reason or another, feel free to do so using one of the methods below.  
+If you need to get in touch with the admin for one reason or another, feel free to do so using one of the methods below.  
 
 * Jabber: [graffen@xmpp.dk][jabber]  
  *[OTR][otr] is required by the server to ensure privacy.  
