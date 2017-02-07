@@ -1,5 +1,5 @@
 jekyll:
-    image: jekyll/jekyll:pages
+    image: graffen/jekyll
     command: jekyll serve --livereload --reload_port 35729
     ports:
         - 4000:4000
