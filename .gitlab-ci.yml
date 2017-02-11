@@ -1,0 +1,12 @@
+image: jekyll/jekyll:pages
+
+build site:
+  stage: build
+  script:
+    - bundle install --path=vendor
+    - bundle exec jekyll build
+    - mv _site xmppdk
+  artifacts:
+    expire_in: 1 month
+    paths:
+      - xmppdk
