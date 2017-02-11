@@ -1,6 +1,6 @@
-image: jekyll/jekyll:pages
 
 build site:
+  image: jekyll/jekyll:pages
   stage: build
   script:
     - bundle install --path=vendor
@@ -10,3 +10,12 @@ build site:
     expire_in: 1 month
     paths:
       - xmppdk
+
+test site:
+  image: mesosphere/linkchecker
+  stage: test
+  script:
+  - apt-get update && apt-get install busybox
+  - cd xmppdk
+  - busybox httpd -p 4000
+  - linkchecker http://localhost:4000/
