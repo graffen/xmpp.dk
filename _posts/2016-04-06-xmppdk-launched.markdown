@@ -14,4 +14,4 @@ Have fun!
 
 /Graffen
 
-[contact]: /Contact
+[contact]: /contact
