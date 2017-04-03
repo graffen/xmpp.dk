@@ -23,6 +23,6 @@ SHA-1:
 
 > `{{ site.fingerprints.tls.sha-1 }}`
 
-Expiry (dd/mm/yy): 29/03/2017
+Expiry (yyyy/mm/dd): `{{ site.fingerprints.tls.expiry }}`
 
 [LetsEncrypt]: https://www.letsencrypt.org

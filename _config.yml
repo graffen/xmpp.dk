@@ -12,6 +12,7 @@ fingerprints:
   tls:
     sha-256: BE E3 86 67 3F B1 CC 16 50 4F 18 3A CF 9C B0 31 05 DC 05 41 E1 7E AD B1 BA 29 AF 5C 28 5F DE 1C
     sha-1: 3F 88 05 4D EE 8F B1 BD 0E 90 2C 3F 21 D8 13 6A 7C B6 74 EE
+    expiry: 2017-05-28
 
 # Build settings
 markdown: kramdown
