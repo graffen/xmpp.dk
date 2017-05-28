@@ -10,9 +10,9 @@ twitter_username: xmppdk
 fingerprints:
   otr: 6A99F136 E66972B9 B169D5B3 458828D1 4003240F
   tls:
-    sha-256: BE E3 86 67 3F B1 CC 16 50 4F 18 3A CF 9C B0 31 05 DC 05 41 E1 7E AD B1 BA 29 AF 5C 28 5F DE 1C
-    sha-1: 3F 88 05 4D EE 8F B1 BD 0E 90 2C 3F 21 D8 13 6A 7C B6 74 EE
-    expiry: 2017-05-28
+    sha-256: 35 05 BD 0B 8E E5 91 2E 81 9E D7 89 8B 57 50 D2 C6 14 F8 3B 78 25 6D ED 1E A6 5B AC 01 8B FE 62
+    sha-1: 2D 70 34 C4 BA 79 FC 6C 05 A8 E5 89 19 AB B8 29 E0 56 26 57
+    expiry: 2017-07-27
 
 # Build settings
 markdown: kramdown
